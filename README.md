@@ -1,2 +1,1 @@
 # Django-Boilerplate
-# Django-Boilerplate
