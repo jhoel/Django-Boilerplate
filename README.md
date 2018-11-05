@@ -7,9 +7,28 @@ What comes with a boilerplate for your django projects?
 
 - A django debug toolbar
 - Settings modules configured for development/production ready
+- Keeps Keys and other sensitive information hidden in production
 
 # Dependencies
 
 [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
+
+[Python De-Couple](https://github.com/henriquebastos/python-decouple)
+
+# Instructions
+
+- Clone Repo
+  git clone `git@github.com:teaglebuilt/Django-Boilerplate.git`
+
+- cd into Django-Boilerplate
+
+- Create virtual environment
+  `virtualenv {name of env}`
+
+- Activate virtual environment
+  `source {name of env}/bin/activate`
+
+- Install requirements for boilerplate
+  `pip install -r requirements.txt`
 
 ![alt text](https://s3.amazonaws.com/clarityfm-production/attachments/6605/default/django.png?1442839704 "Django Boilerplate")
