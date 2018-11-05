@@ -31,4 +31,10 @@ What comes with a boilerplate for your django projects?
 - Install requirements for boilerplate
   `pip install -r requirements.txt`
 
+- Create folder "static_in_env" at the same level as manage.py
+
+- then Run command: python manage.py collectstatic
+
+- Run python manage.py runserver
+
 ![alt text](https://s3.amazonaws.com/clarityfm-production/attachments/6605/default/django.png?1442839704 "Django Boilerplate")
