@@ -10,4 +10,6 @@ What comes with a boilerplate for your django projects?
 
 # Dependencies
 
-![alt text](https://django-debug-toolbar.readthedocs.io/en/latest/ "Django debug toolbar")
+[Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
+
+![alt text](https://s3.amazonaws.com/clarityfm-production/attachments/6605/default/django.png?1442839704 "Django Boilerplate")
