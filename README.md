@@ -35,4 +35,10 @@ What comes with a boilerplate for your django projects?
 
 - Run python manage.py runserver
 
+## Note
+
+You will see the debug server on the right side. There will be no page found. You can connect the URLS and views to configure as usual.
+
+Hope this helps.
+
 ![alt text](https://s3.amazonaws.com/clarityfm-production/attachments/6605/default/django.png?1442839704 "Django Boilerplate")
