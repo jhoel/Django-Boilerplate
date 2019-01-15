@@ -7,6 +7,7 @@ What comes with a boilerplate for your django projects?
 
 - A django debug toolbar
 - Settings modules configured for development/production ready
+- A list of commands for project configuration
 - Keeps Keys and other sensitive information hidden in production
 
 # Dependencies
@@ -34,6 +35,33 @@ What comes with a boilerplate for your django projects?
 - Create folder "static_in_env" at the same level as manage.py
 
 - Run python manage.py runserver
+
+## Commands
+
+```
+
+python manage.py rename { project name }
+
+```
+
+Note: If run this command more than once. You will need to change this file core/management/commands/rename.py. FIll in "{ current-project-name }" with the current project name.
+
+```py
+
+def handle(self, *args, **kwargs):
+        new_project_name = kwargs['new_project_name']
+
+        files_to_rename = ['{ current-project-name }/settings/base.py',
+                           '{ current-project-name }/wsgi.py', 'manage.py']
+        folder_to_rename = '{ current-project-name }'
+
+        for f in files_to_rename:
+            with open(f, 'r') as file:
+                filedata = file.read()
+
+            filedata = filedata.replace('{ current-project-name }', new_project_name)
+
+```
 
 ## Note
 
