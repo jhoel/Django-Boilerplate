@@ -1,4 +1,4 @@
-from .base import *
+from boilerplate.settings.base import *
 
 DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = ['ip-address', 'https://yourwebsite.com']

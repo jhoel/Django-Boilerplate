@@ -21,7 +21,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'core'
 ]
 
@@ -35,7 +34,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
 
-ROOT_URLCONF = 'codebin.urls'
+ROOT_URLCONF = 'boilerplate.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +52,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'codebin.wsgi.application'
+WSGI_APPLICATION = 'boilerplate.wsgi.application'
 
 
 # Internationalization

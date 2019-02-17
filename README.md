@@ -44,7 +44,7 @@ python manage.py rename { project name }
 
 ```
 
-Note: If run this command more than once. You will need to change this file core/management/commands/rename.py. FIll in "{ current-project-name }" with the current project name.
+ATTENTION: The rename command is only meant to change the project name after the boilerplate has been cloned. If run this command more than once. You will need to change this file core/management/commands/rename.py. FIll in "{ current-project-name }" with the current project name.
 
 ```py
 
@@ -62,6 +62,13 @@ def handle(self, *args, **kwargs):
             filedata = filedata.replace('{ current-project-name }', new_project_name)
 
 ```
+
+If the server wont run, be sure to manually check settings/base.py to make sure that the name has changed. If not you might need to manually change it here...
+
+```
+ROOT_URLCONF = '{name_to_change}.urls'
+```
+Also check manage.py as well.
 
 ## Note
 
