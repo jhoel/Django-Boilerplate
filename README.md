@@ -69,4 +69,3 @@ You will see the debug server on the right side. There will be no page found. Yo
 
 Hope this helps.
 
-![alt text](https://s3.amazonaws.com/clarityfm-production/attachments/6605/default/django.png?1442839704 "Django Boilerplate")
