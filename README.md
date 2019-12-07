@@ -19,20 +19,13 @@ What comes with a boilerplate for your django projects?
 # Instructions
 
 - Clone Repo
-  git clone `git@github.com:teaglebuilt/Django-Boilerplate.git`
 
 - cd into Django-Boilerplate
 
-- Create virtual environment
-  `virtualenv {name of env}`
-
-- Activate virtual environment
-  `source {name of env}/bin/activate`
+- Create and activate virtual environment
 
 - Install requirements for boilerplate
   `pip install -r requirements.txt`
-
-- Create folder "static_in_env" at the same level as manage.py
 
 - Run python manage.py runserver
 
